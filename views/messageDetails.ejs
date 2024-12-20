@@ -3,20 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Messages</title>
+    <title>Message Details</title>
     <link rel="stylesheet" href="/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Add a new message!</h1>
-    <form method="post" action="/new">
-        <label for="user">Username:</label>
-        <input type="text" name="user">
-        <label for="message">Enter your message:</label>
-        <input type="text" name="message">
-        <input type="submit">
-    </form>
+    <h1>Message Details</h1>
+    <p><strong>User:</strong> <%= message.user %></p>
+    <p><strong>Message:</strong> <%= message.text %></p>
+    <p><strong>Added:</strong> <%= message.added.toLocaleString() %></p>
+    <a href="/">Back to messages</a>
 </body>
 </html>

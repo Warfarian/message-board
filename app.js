@@ -5,6 +5,8 @@ const path = require("node:path");
 const indexRouter = require('./routes/indexRouter')
 const newRouter = require('./routes/newRouter')
 
+const assetsPath = path.join(__dirname, "public");
+app.use(express.static(assetsPath));
 
 const PORT = process.env.PORT || 3000;
 

@@ -1,0 +1,84 @@
+body {
+    font-family: 'press start 2p', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.message {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.message:hover{
+    background-color: #e8e5e5;
+    transition: .4s ease-in-out;
+}
+
+.message h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.message p {
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100vh;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+input{
+    font-family: 'press start 2p';
+}
+
+input:hover{
+    background-color: #e8e5e5;
+    transition: .4s ease-in-out;
+}
